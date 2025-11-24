@@ -4,35 +4,25 @@ This is a Recipe Page that you can use on your websites.
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 - [Author](#author)
 
-## Overview
-
-### Screenshot
+## Screenshot
 
 ![](screenshot.png)
 
-### Links
+## Links
 
-- Live Site URL: [Social Links Profile](https://altindaselif.github.io/recipe-page-main/)
+- Solution URL: [Social Links Profile Solution](https://github.com/altindaselif/recipe-page-main)
+- Live Site URL: [Social Links Profile Live](https://altindaselif.github.io/recipe-page-main/)
 
-## My process
-
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-
-### What I learned
-
-I learned how to work with list items. I also learned how to adjust the spacing between the list marker and the text, make the markers bold and change their color. Since I hadn’t worked with tables for a while, I had forgotten how to use them, but this project helped me recall their usage.
 
 ## Author
 
