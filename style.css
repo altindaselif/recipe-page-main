@@ -1,0 +1,128 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --stone-100: hsl(30, 54%, 90%);
+  --stone-150: hsl(30, 18%, 87%);
+  --stone-600: hsl(30, 10%, 34%);
+  --stone-900: hsl(24, 5%, 18%);
+  --brown-800: hsl(14, 45%, 36%);
+  --rose-800: hsl(332, 51%, 32%);
+  --rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: var(--stone-600);
+  background-color: var(--stone-100);
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-container {
+  width: 45rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+.recipe-img {
+  width: 100%;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.recipe-heading,
+.section-heading {
+  font-family: "Young Serif", serif;
+}
+
+.recipe-heading {
+  font-size: 2.4rem;
+  color: var(--stone-900);
+  margin-bottom: 1rem;
+}
+
+.section-heading {
+  color: var(--brown-800);
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.recipe-info {
+  margin-bottom: 1.5rem;
+}
+
+.recipe-pre {
+  background-color: var(--rose-50);
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.pre-heading {
+  color: var(--rose-800);
+  margin-bottom: 0.5rem;
+}
+
+.list-infos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1.5rem;
+}
+
+.list-infos li {
+  text-indent: 1rem;
+}
+
+.list-infos li::marker {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+.list-infos.list-rose li::marker {
+  color: var(--rose-800);
+}
+
+.section-line {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--stone-150);
+}
+
+.table-info {
+  margin-bottom: 0.5rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border-bottom: 1px solid var(--stone-150);
+  padding: 0.7rem 1.5rem;
+  text-align: left;
+}
+
+td:nth-child(even) {
+  color: var(--brown-800);
+  font-weight: bold;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
